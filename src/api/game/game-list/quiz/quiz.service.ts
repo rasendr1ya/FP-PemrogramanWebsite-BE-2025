@@ -21,7 +21,7 @@ export abstract class QuizService {
     let questionWithImageAmount = 0;
 
     for (const [index, question] of data.questions.entries()) {
-      if (!Number.isNaN(question.question_image_array_index))
+      if (typeof question.question_image_array_index === 'number')
         questionWithImageAmount++;
 
       const correctAnswer = question.answers.filter(
