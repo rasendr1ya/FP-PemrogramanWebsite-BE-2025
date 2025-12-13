@@ -4,3 +4,4 @@ export * from './quiz.interface';
 export * from './sliding-puzzle.interface';
 export * from './speed-sorting.interface';
 export * from './type-speed.interface';
+export * from './win-or-lose-quiz.interface';

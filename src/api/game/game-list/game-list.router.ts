@@ -10,6 +10,7 @@ import { SlidingPuzzleController } from './sliding-puzzle/sliding-puzzle.control
 import { SpeedSortingController } from './speed-sorting/speed-sorting.controller';
 import { TrueOrFalseController } from './true-or-false/true-or-false.controller';
 import { TypeSpeedController } from './type-speed/type-speed.controller';
+import { WinOrLoseQuizController } from './win-or-lose-quiz/win-or-lose-quiz.controller';
 
 const GameListRouter = Router();
 
@@ -21,5 +22,6 @@ GameListRouter.use('/anagram', AnagramController);
 GameListRouter.use('/pair-or-no-pair', PairOrNoPairController);
 GameListRouter.use('/type-speed', TypeSpeedController);
 GameListRouter.use('/true-or-false', TrueOrFalseController);
+GameListRouter.use('/win-or-lose-quiz', WinOrLoseQuizController);
 
 export default GameListRouter;
