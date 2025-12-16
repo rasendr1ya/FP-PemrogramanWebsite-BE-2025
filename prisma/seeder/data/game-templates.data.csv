@@ -17,8 +17,8 @@ a67b668c-e95d-483e-8d4e-385b050f5646,gameshow-quiz,"Gameshow Quiz","Lorem",theat
 87338387-b0cc-462e-9489-a0070f98c3a1,crossword,"Crossword","TTS asik cihuy",panels-right-bottom,false,false
 a2678379-5c86-4f05-a10a-f37370732e1d,labelled-diagram,"Labelled Diagram","Lorem",pin,false,false
 ac8b43c2-1bee-4a3f-a9ad-b8aa6f8a8d10,true-or-false,"True or False","Lorem",book-open-check,true,false
-374043f0-8c5c-4c0e-9985-cb8e2ef68936,hangman,"Hangman","Lorem",skull,false,true
-a947e0b8-f3f1-4c20-af14-63ac04c8ed8d,airplane,"Airplane","Lorem",plane,false,true
+374043f0-8c5c-4c0e-9985-cb8e2ef68936,hangman,"Hangman","Try to complete the word by picking the correct letters",skull,false,true
+a947e0b8-f3f1-4c20-af14-63ac04c8ed8d,airplane,"Airplane","Kendalikan pesawat ke jawaban benar. Hindari jawaban salah.",plane,false,true
 9803ce6b-8d0c-47fe-8306-9411e3399665,whack-a-mole,"Whack-a-Mole","Lorem",gavel,true,false
 9d13d300-fe45-4fa3-88d3-4f944e1a7f01,baloon-pop,"Baloon Pop","Lorem",bow-arrow,true,false
 b7efa7d0-fe73-4a5b-80d8-953cee5a39dc,image-quiz,"Image Quiz","Lorem",aperture,true,false

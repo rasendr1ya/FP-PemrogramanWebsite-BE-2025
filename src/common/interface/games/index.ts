@@ -1,4 +1,5 @@
 export * from './crossword.interface';
+export * from './hangman.interface';
 export * from './maze-chase.interface';
 export * from './pair-or-no-pair.interface';
 export * from './quiz.interface';
@@ -6,4 +7,6 @@ export * from './sliding-puzzle.interface';
 export * from './speed-sorting.interface';
 export * from './spin-the-wheel.interface';
 export * from './type-speed.interface';
+export * from './type-the-answer.interface';
+export * from './whack-a-mole.interface';
 export * from './win-or-lose-quiz.interface';

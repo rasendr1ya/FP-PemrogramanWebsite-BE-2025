@@ -6,13 +6,13 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_DB: FPPweb
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: paswd123
+      POSTGRES_DB: ${POSTGRES_NAME}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
-      - ./docker/volumes/:/var/lib/postgresql
+      - ./docker/volumes/:/var/lib/postgresql/data
     healthcheck:
-      test: ['CMD-SHELL', 'pg_isready -U fp_user']
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_NAME}"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -22,6 +22,3 @@ services:
 networks:
   fp-network:
     driver: bridge
-
-volumes:
-  mysqldata:
