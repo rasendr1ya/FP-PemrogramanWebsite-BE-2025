@@ -1,7 +1,3 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-/* eslint-disable import/no-default-export */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import { Router } from 'express';
 
 import airplaneRouter from './airplane/airplane.router';
