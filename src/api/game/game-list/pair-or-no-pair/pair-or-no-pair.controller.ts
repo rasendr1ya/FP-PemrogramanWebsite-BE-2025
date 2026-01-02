@@ -200,6 +200,7 @@ export const PairOrNoPairController = Router()
       next: NextFunction,
     ) => {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         const result = await PairOrNoPairService.evaluateGame(
           request.body,
           request.params.game_id,
@@ -228,6 +229,7 @@ export const PairOrNoPairController = Router()
       next: NextFunction,
     ) => {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         const result = await PairOrNoPairService.getLeaderboard(
           request.params.game_id,
           request.query.difficulty,

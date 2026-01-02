@@ -90,6 +90,13 @@ export abstract class QuizService {
       },
       select: {
         id: true, // select id agar tidak semua dikembalikan
+        game_template: {
+          select: {
+            id: true,
+            name: true,
+            slug: true,
+          },
+        },
       },
     });
 

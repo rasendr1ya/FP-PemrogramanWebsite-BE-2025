@@ -40,7 +40,5 @@ prisma/seeder/data/users-prod.data.csv
 /generated/prisma
 
 uploads
-
-# whack-a-mole documentation
-src/api/game/game-list/whack-a-mole/README.md
-
+API-DOCUMENTATION.md
+draftapi.md

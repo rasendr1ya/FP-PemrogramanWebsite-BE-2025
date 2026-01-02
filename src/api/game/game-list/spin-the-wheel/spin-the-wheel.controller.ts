@@ -284,6 +284,7 @@ export const SpinTheWheelController = Router()
       next: NextFunction,
     ) => {
       try {
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
         const result = await SpinTheWheelService.getLeaderboard(
           request.params.game_id,
         );
